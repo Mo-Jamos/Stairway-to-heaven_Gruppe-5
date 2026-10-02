@@ -1,0 +1,41 @@
+# ------------------------------------------------------------------
+# NO DATA ON GITHUB: BVG plans, annotations, examples, results and
+# the trained model stay local and are never committed.
+# ------------------------------------------------------------------
+plans/*
+!plans/.gitkeep
+data/*
+!data/classes.txt
+output/
+outputs/
+models/
+*.pt
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.zip
+
+# build artefacts
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# local environment
+.venv/
+venv/
+.vscode/
+.idea/
+
+# internal working notes from the project week (not part of the release)
+PLAN_PROTOTYPE.md
+PROJECT_BRIEF.md
+PROMPTS.md
+TESTS.md

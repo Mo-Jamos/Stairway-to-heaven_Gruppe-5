@@ -1,0 +1,16 @@
+{
+  "confidence_threshold": 0.7,
+  "csv_locale": "de",
+  "overlay_max_side": 4000,
+  "detector": {},
+  "method": "rules",
+  "yolo": {
+    "model": "models/stairs_yolo.pt",
+    "min_confidence": 0.25,
+    "review_threshold": 0.5,
+    "tile": 1024,
+    "overlap": 256,
+    "type_from_rules": true,
+    "device": ""
+  }
+}

@@ -1,0 +1,13 @@
+opencv-python>=4.8
+numpy>=1.26
+pillow>=10.0
+# fuer das Programmfenster app_modern.py:
+customtkinter>=5.2
+# nur fuer die alte Version src/stair_detector_v01.py:
+scikit-image>=0.22
+# nur fuer die YOLO-Methode (gross, ca. 1 GB mit PyTorch) - separat installieren:
+#   python -m pip install ultralytics
+# nur zum Annotieren:
+#   python -m pip install labelImg
+# nur zum Bauen der .exe (build_exe_modern.bat installiert es selbst):
+# pyinstaller
