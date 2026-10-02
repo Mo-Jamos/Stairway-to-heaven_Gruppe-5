@@ -136,11 +136,6 @@ output/                  results (not in the repository)
 - The confidence score is a rule score, not a calibrated probability.
 - YOLO is limited by the very small training set.
 
-## Team
+## Author
 
-| Role | Name |
-|---|---|
-| Team Lead | Fahad |
-| Data Analyst | Marilena |
-| Prototype Developer | Mohammad |
-| Test & Assessment | Nerijus |
+Developed by **Mohammad Al Jamous** ([@Mo-Jamos](https://github.com/Mo-Jamos)) – design, implementation, YOLO training and evaluation.
