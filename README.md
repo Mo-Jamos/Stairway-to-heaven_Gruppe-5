@@ -139,4 +139,4 @@ output/                  results (not in the repository)
 
 ## Author
 
-Developed by **Mohammad Al Jamous** ([@Mo-Jamos](https://github.com/Mo-Jamos)) – design, implementation, YOLO training and evaluation.
+Developed by **Mohammad Al Jamous** ([@Mo-Jamos](https://github.com/Mo-Jamos)) – design, data analysis, implementation, YOLO training, testing and evaluation.
