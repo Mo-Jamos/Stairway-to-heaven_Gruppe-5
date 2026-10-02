@@ -103,7 +103,8 @@ python tools/yolo_train.py --epochs 50             # train YOLO -> models/stairs
 python tools/check_examples.py                     # check example screenshots in data/examples/
 ```
 
-Only plans listed in `data/geprueft.txt` are used for training; plans in `data/split_val.txt` are used for validation, plans in `data/split_test.txt` never for training.
+Only plans listed in `data/geprueft.txt` are used for training; plans in `data/split_val.txt` are used for validation, plans in `data/split_test.txt` never for training. These three lists are not in the repository – create them yourself as plain text files with one plan name per line (e.g. `S_133_005`).
+
 
 ## Project structure
 
@@ -136,11 +137,6 @@ output/                  results (not in the repository)
 - The confidence score is a rule score, not a calibrated probability.
 - YOLO is limited by the very small training set.
 
-## Team
+## Author
 
-| Role | Name |
-|---|---|
-| Team Lead | Fahad |
-| Data Analyst | Marilena |
-| Prototype Developer | Mohammad |
-| Test & Assessment | Nerijus |
+Developed by **Mohammad AL Jamous** ([@Mo-Jamos](https://github.com/Mo-Jamos)) – design, implementation, YOLO training and evaluation.
